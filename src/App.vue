@@ -1,8 +1,4 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view/>
 </template>
 
@@ -15,6 +11,13 @@
   color: #2c3e50;
 }
 
+h4 {
+  margin: 5px;
+  width: max-content;
+  span {
+    margin: 0 5px;
+  }
+}
 nav {
   padding: 30px;
 
